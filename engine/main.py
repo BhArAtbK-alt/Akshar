@@ -147,9 +147,11 @@ class AksharEngine(IBus.Engine):
             logger.exception("render failed")
 
     def _commit(self, strings):
-        for t in strings:
-            if t:
-                self.commit_text(IBus.Text.new_from_string(t))
+        if strings:
+            combined = "".join(strings)
+            if combined:
+                self.commit_text(IBus.Text.new_from_string(combined))
+                
 
     # ---------------- panel menu ---------------- #
     def _register_properties(self):
