@@ -151,7 +151,6 @@ class AksharEngine(IBus.Engine):
             combined = "".join(strings)
             if combined:
                 self.commit_text(IBus.Text.new_from_string(combined))
-                
 
     # ---------------- panel menu ---------------- #
     def _register_properties(self):
