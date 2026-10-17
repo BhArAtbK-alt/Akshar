@@ -43,14 +43,23 @@ def save(name, data):
 #  Derived Indic scripts
 # ---------------------------------------------------------------------- #
 
+# Known valid Indic Nukta/Sign code points added in Unicode 14.0+
+# (Python <=3.10 uses Unicode 13.0 where these return None from unicodedata.name)
+VALID_INDIC_OVERRIDES = {
+    0x0C3C,  # TELUGU SIGN NUKTA (఼)
+    0x0CBC,  # KANNADA SIGN NUKTA (఼)
+}
+
+
 def shift(s, delta):
     """Shift a Devanagari string into another Indic block. None if any char is unassigned."""
     out = []
     for ch in unicodedata.normalize("NFD", s):
         cp = ord(ch)
         if 0x0900 <= cp <= 0x097F:
-            new = chr(cp + delta)
-            if unicodedata.name(new, None) is None:
+            new_cp = cp + delta
+            new = chr(new_cp)
+            if new_cp not in VALID_INDIC_OVERRIDES and unicodedata.name(new, None) is None:
                 return None
             out.append(new)
         else:
