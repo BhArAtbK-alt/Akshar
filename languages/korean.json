@@ -1,0 +1,69 @@
+{
+  "name": "Korean",
+  "code": "ko",
+  "script": "Hangul",
+  "script_type": "hangul",
+  "aliases": [
+    "korean",
+    "ko",
+    "hangul",
+    "hangeul",
+    "kr"
+  ],
+  "punctuation": {
+    "?": "?",
+    ".": ".",
+    ",": ","
+  },
+  "variants": [
+    [
+      "k",
+      "g"
+    ],
+    [
+      "g",
+      "k"
+    ],
+    [
+      "t",
+      "d"
+    ],
+    [
+      "d",
+      "t"
+    ],
+    [
+      "p",
+      "b"
+    ],
+    [
+      "b",
+      "p"
+    ],
+    [
+      "eo",
+      "o"
+    ],
+    [
+      "o",
+      "eo"
+    ],
+    [
+      "ae",
+      "e"
+    ],
+    [
+      "e",
+      "ae"
+    ],
+    [
+      "eu",
+      "u"
+    ],
+    [
+      "l",
+      "r"
+    ]
+  ],
+  "symbol": "한"
+}

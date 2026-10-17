@@ -1,0 +1,23 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: {python: ["3.9", "3.11", "3.12"]}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "${{ matrix.python }}"}
+      - run: pip install pytest
+      - run: python -m pytest tests -q
+      - name: Generated files are up to date
+        run: |
+          python tools/gen_japanese.py && python tools/build_languages.py && python tools/gen_ibus_xml.py
+          git diff --exit-code
+  ibus:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ibus gir1.2-ibus-1.0 python3-gi dbus
+      - run: dbus-run-session -- python3 tests/ibus_integration.py

@@ -1,0 +1,21 @@
+{
+  "_comment": "Exact-word overrides. Key = what you type (lowercase). Value = string, or list: first item is the default, the rest are alternates shown in the candidate list.",
+  "words": {
+    "kalimera": "καλημέρα",
+    "kalispera": "καλησπέρα",
+    "kalinihta": "καληνύχτα",
+    "efharisto": "ευχαριστώ",
+    "efxaristo": "ευχαριστώ",
+    "parakalo": "παρακαλώ",
+    "yassou": "γεια σου",
+    "yasou": "γεια σου",
+    "ellada": "Ελλάδα",
+    "athina": "Αθήνα",
+    "nai": "ναι",
+    "ohi": "όχι",
+    "agapi": "αγάπη",
+    "filos": "φίλος",
+    "kalos": "καλός",
+    "ellinika": "ελληνικά"
+  }
+}

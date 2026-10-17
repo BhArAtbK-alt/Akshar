@@ -1,0 +1,29 @@
+{
+  "_comment": "Exact-word overrides. Key = what you type (lowercase). Value = string, or list: first item is the default, the rest are alternates shown in the candidate list.",
+  "words": {
+    "marhaba": "مرحبا",
+    "ahlan": "أهلا",
+    "salam": "سلام",
+    "salaam": "سلام",
+    "shukran": "شكرا",
+    "afwan": "عفوا",
+    "naam": "نعم",
+    "la": "لا",
+    "habibi": "حبيبي",
+    "habibti": "حبيبتي",
+    "allah": "الله",
+    "inshallah": "إن شاء الله",
+    "mashallah": "ما شاء الله",
+    "alhamdulillah": "الحمد لله",
+    "bismillah": "بسم الله",
+    "kaif": "كيف",
+    "kayf": "كيف",
+    "mish": "مش",
+    "yalla": "يلا",
+    "wallah": "والله",
+    "sabah": "صباح",
+    "masa": "مساء",
+    "arabi": "عربي",
+    "arabiyya": "عربية"
+  }
+}

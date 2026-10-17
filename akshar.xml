@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component>
+  <name>org.freedesktop.IBus.Akshar</name>
+  <description>Akshar — Universal Real-Time Linguistic Overlay</description>
+  <exec>/usr/share/akshar/engine/main.py --ibus</exec>
+  <version>2.0.0</version>
+  <author>Bharat</author>
+  <license>MIT</license>
+  <homepage>https://github.com/akshar-ime</homepage>
+  <textdomain>akshar</textdomain>
+  <engines>
+    <engine>
+      <name>akshar</name>
+      <language>hi</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Transliteration (all languages)</longname>
+      <description>Type English, get any script. F11 switches language.</description>
+      <rank>99</rank>
+      <symbol>अ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-arabic</name>
+      <language>ar</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Arabic</longname>
+      <description>Type English, get Arabic</description>
+      <rank>99</rank>
+      <symbol>ع</symbol>
+    </engine>
+    <engine>
+      <name>akshar-bengali</name>
+      <language>bn</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Bengali</longname>
+      <description>Type English, get Bengali</description>
+      <rank>99</rank>
+      <symbol>অ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-greek</name>
+      <language>el</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Greek</longname>
+      <description>Type English, get Greek</description>
+      <rank>99</rank>
+      <symbol>Ω</symbol>
+    </engine>
+    <engine>
+      <name>akshar-gujarati</name>
+      <language>gu</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Gujarati</longname>
+      <description>Type English, get Gujarati</description>
+      <rank>99</rank>
+      <symbol>અ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-hindi</name>
+      <language>hi</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Hindi</longname>
+      <description>Type English, get Hindi</description>
+      <rank>99</rank>
+      <symbol>अ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-japanese_hiragana</name>
+      <language>ja</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Japanese (Hiragana)</longname>
+      <description>Type English, get Japanese (Hiragana)</description>
+      <rank>99</rank>
+      <symbol>あ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-japanese_katakana</name>
+      <language>ja</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Japanese (Katakana)</longname>
+      <description>Type English, get Japanese (Katakana)</description>
+      <rank>99</rank>
+      <symbol>ア</symbol>
+    </engine>
+    <engine>
+      <name>akshar-kannada</name>
+      <language>kn</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Kannada</longname>
+      <description>Type English, get Kannada</description>
+      <rank>99</rank>
+      <symbol>ಅ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-korean</name>
+      <language>ko</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Korean</longname>
+      <description>Type English, get Korean</description>
+      <rank>99</rank>
+      <symbol>한</symbol>
+    </engine>
+    <engine>
+      <name>akshar-malayalam</name>
+      <language>ml</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Malayalam</longname>
+      <description>Type English, get Malayalam</description>
+      <rank>99</rank>
+      <symbol>അ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-marathi</name>
+      <language>mr</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Marathi</longname>
+      <description>Type English, get Marathi</description>
+      <rank>99</rank>
+      <symbol>अ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-odia</name>
+      <language>or</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Odia</longname>
+      <description>Type English, get Odia</description>
+      <rank>99</rank>
+      <symbol>ଅ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-punjabi</name>
+      <language>pa</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Punjabi</longname>
+      <description>Type English, get Punjabi</description>
+      <rank>99</rank>
+      <symbol>ਅ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-russian</name>
+      <language>ru</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Russian</longname>
+      <description>Type English, get Russian</description>
+      <rank>99</rank>
+      <symbol>Я</symbol>
+    </engine>
+    <engine>
+      <name>akshar-tamil</name>
+      <language>ta</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Tamil</longname>
+      <description>Type English, get Tamil</description>
+      <rank>99</rank>
+      <symbol>அ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-telugu</name>
+      <language>te</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Telugu</longname>
+      <description>Type English, get Telugu</description>
+      <rank>99</rank>
+      <symbol>అ</symbol>
+    </engine>
+    <engine>
+      <name>akshar-urdu</name>
+      <language>ur</language>
+      <license>MIT</license>
+      <author>Bharat</author>
+      <icon>input-keyboard-symbolic</icon>
+      <layout>us</layout>
+      <longname>Akshar अक्षर — Urdu</longname>
+      <description>Type English, get Urdu</description>
+      <rank>99</rank>
+      <symbol>ا</symbol>
+    </engine>
+  </engines>
+</component>

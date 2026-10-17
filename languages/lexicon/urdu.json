@@ -1,0 +1,31 @@
+{
+  "_comment": "Exact-word overrides. Key = what you type (lowercase). Value = string, or list: first item is the default, the rest are alternates shown in the candidate list.",
+  "words": {
+    "urdu": "اردو",
+    "pakistan": "پاکستان",
+    "shukriya": "شکریہ",
+    "salam": "سلام",
+    "assalamualaikum": "السلام علیکم",
+    "khudahafiz": "خدا حافظ",
+    "aap": "آپ",
+    "kaise": "کیسے",
+    "kya": "کیا",
+    "hai": "ہے",
+    "hain": "ہیں",
+    "nahi": "نہیں",
+    "nahin": "نہیں",
+    "haan": "ہاں",
+    "acha": "اچھا",
+    "accha": "اچھا",
+    "dost": "دوست",
+    "pyar": "پیار",
+    "mohabbat": "محبت",
+    "zindagi": "زندگی",
+    "duniya": "دنیا",
+    "ghar": "گھر",
+    "paani": "پانی",
+    "lahore": "لاہور",
+    "karachi": "کراچی",
+    "islamabad": "اسلام آباد"
+  }
+}

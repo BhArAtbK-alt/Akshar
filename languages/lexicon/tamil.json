@@ -1,0 +1,24 @@
+{
+  "_comment": "Exact-word overrides. Key = what you type (lowercase). Value = string, or list: first item is the default, the rest are alternates shown in the candidate list.",
+  "words": {
+    "vanakkam": "வணக்கம்",
+    "nandri": "நன்றி",
+    "tamil": "தமிழ்",
+    "tamizh": "தமிழ்",
+    "thamizh": "தமிழ்",
+    "amma": "அம்மா",
+    "appa": "அப்பா",
+    "anbu": "அன்பு",
+    "kadhal": "காதல்",
+    "chennai": "சென்னை",
+    "madurai": "மதுரை",
+    "naan": "நான்",
+    "nee": "நீ",
+    "neenga": "நீங்கள்",
+    "enna": "என்ன",
+    "eppadi": "எப்படி",
+    "sari": "சரி",
+    "illai": "இல்லை",
+    "aamam": "ஆமாம்"
+  }
+}

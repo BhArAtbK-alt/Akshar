@@ -1,0 +1,20 @@
+{
+  "_comment": "Exact-word overrides. Key = what you type (lowercase). Value = string, or list: first item is the default, the rest are alternates shown in the candidate list.",
+  "words": {
+    "zdravstvuyte": "здравствуйте",
+    "zdravstvuj": "здравствуй",
+    "spasibo": "спасибо",
+    "pozhaluysta": "пожалуйста",
+    "privet": "привет",
+    "poka": "пока",
+    "da": "да",
+    "net": "нет",
+    "khorosho": "хорошо",
+    "mir": "мир",
+    "moskva": "Москва",
+    "rossiya": "Россия",
+    "sankt-peterburg": "Санкт-Петербург",
+    "drug": "друг",
+    "lyubov": "любовь"
+  }
+}
